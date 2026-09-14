@@ -2,6 +2,12 @@
 __pycache__/
 *.py[codz]
 *$py.class
+models/*.keras
+models/labels.json
+models/metrics.json
+data/chat_metrics.jsonl
+.env
+data/agriscanner.sqlite3
 
 # C extensions
 *.so
