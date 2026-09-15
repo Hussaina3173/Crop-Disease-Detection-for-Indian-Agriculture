@@ -41,6 +41,7 @@ data/plantvillage/Tomato___healthy/image-002.jpg
 After placing one or more datasets locally, see [datasets.md](datasets.md) for recommended sources and licensing notes:
 
 ```powershell
+pip install -r requirements-ml.txt
 python train.py --data-dir data/plantvillage --data-dir data/plantdoc --data-dir data/paddy --epochs 12
 ```
 
